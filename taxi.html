@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taxi Calculator</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet"/>
+    <link href="https://db.onlinewebfonts.com/c/a163d087c4bfdff182eb1b4fcc595798?family=Sansation+Light" rel="stylesheet">
+    <link rel="stylesheet" href="taxi.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="holder">
+        <h1>Taxi Calculator</h1>
+        
+      <div class="Calculator">
+        <div class="column">
+        <div class="labelInput1">
+        <label for="Cost">Amount :R</label>
+        <input type="number" id="Cost" name="Cost" />
+      </div>
+      <div class="labelInput2">
+        <label  for="Seat">Number of Seat</label>
+        <input  type="number" id="numbOfSeat" name="numbOfSeat"/> 
+      </div>
+    </div>
+
+        <div class="total-amount">
+        <button class="button-1" onclick="CalcTotal()">Get Total</button>
+        <span>Total Amount is: R--</span>
+        <div id="DriverTotalAmount"></div>
+      </div>
+    </div>
+
+      <div class="rows">
+        <div class="firstR">
+          <p>First Row</p>
+          <div class="columns2">
+          <div class="column1">
+          <label class="label1" for="paid">Amount Paid R</label>
+          <input class="input1" type="number" id="paid" name="paid"/>
+        </div>
+        <div class="column2">
+          <label class="label2" for="seatOccupied">Seat Occupied</label>
+          <input class="input2" type="number" id="seatOccupied" name="seatOccupied"/> 
+        </div>
+      </div>
+         <div class="total-Amount">
+          <button class="button-1"  onclick="GetT()">Get Total</button> 
+          <div class="total" id="GetTotal">Cash :R--</div> 
+          <div class="change" id="Change">Change :R--</div>
+        </div>
+      </div>
+
+        <div class="secondR">
+            <p>Second Row</p>
+            <div class="columns2">
+              <div class="column1">
+            <label class="label1" for="paid2">Amount Paid R</label>
+            <input class="input1" type="number" id="paid2" name="paid3"/>
+          </div>
+          <div class="column2">
+            <label class="label2" for="seatOccupied2">Seat Occupied</label>
+            <input  class="input2" type="number" id="seatOccupied2" name="seatOccupied2"/> 
+          </div>
+          </div>
+          <div class="total-Amount">
+            <button class="button-1" onclick="Get2T()">Get Total</button>
+            <div class="total" id="GetTotal2">Cash :R--</div>
+            <div class="change" id="Change2">Change :R--</div>
+          </div>
+      </div>
+
+      <div class="thirdR">
+        <p>Third Row</p>
+        <div class="columns2">
+          <div class="column1">
+        <label class="label1" for="paid3">Amount Paid R</label>
+        <input class="input1" type="number" id="paid3" name="paid3"/>
+      </div>
+      <div class="column2">
+        <label class="label2" for="seatOccupied3">Seat Occupied</label>
+        <input  class="input2" type="number" id="seatOccupied3" name="seatOccupied3"/>
+      </div>
+        </div>
+        <div class="total-Amount">
+        <button class="button-1" onclick="Get3T()">Get Total</button>
+        <div class="total" id="GetTotal3">Cash :R--</div>
+        <div class="change" id="Change3">Change :R--</div>
+      </div>
+    </div>
+
+    <div class="forthR">
+        <p>Forth Row</p>
+        <div  class="columns2">
+          <div class="column1">
+        <label  class="label1"  for="paid4">Amount Paid R</label>
+        <input class="input1" type="number" id="paid4" name="paid4"/>
+      </div>
+      <div class="column2">
+        <label class="label2" for="seatOccupied4">Seat Occupied</label>
+        <input class="input2" type="number" id="seatOccupied4" name="seatOccupied4"/>
+      </div>
+      </div>
+      <div class="total-Amount">
+        <button class="button-1" onclick="Get4T()">Get Total</button>
+        <div class="total" id="GetTotal4">Cash :R--</div>
+        <div class="change" id="Change4">Change :R--</div>
+      </div>
+    </div>
+   
+</div>
+
+</div>
+
+</div>
+    </div>
+    <script src="taxi.js"></script>
+  </body>
+</html>

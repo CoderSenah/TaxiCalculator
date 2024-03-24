@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+   
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+}
+
+.header {
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+  
+}
+
+.header h1 {
+    padding-bottom: 20px;
+    color: #f59e0b;
+}
+
+.holder{
+    background-color: #1a2e05;
+    width: 600px;
+    max-width: 100%;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.Calculator{
+ color: #f59e0b;
+ font-weight: 600;
+
+}
+
+.column {
+    display: flex;
+    width: 5..0000px;
+}
+
+.labelInput1 {
+ flex: 1;   
+}
+
+.labelInput2 {
+   flex: 1;
+}
+
+.Calculator input {
+    width: 60px;
+}
+
+.total-amount {
+    display: flex;
+    align-items: center;
+    text-align: centers;
+    padding: 10px;
+    padding-left: 100px;
+    
+}
+
+.total-amount span {
+    margin-right: 10px; /* Adjust as needed for spacing */
+    text-align: center;
+    padding-left: 10px;
+}
+
+.total-amount button {
+   
+    width: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.columns2{
+    display: flex;
+    max-width: 600px;
+}
+
+.column1 {
+    flex: 1;
+    padding: 10px;
+}
+
+.column2 {
+    flex: 1;
+    padding: 10px;
+}
+
+p{
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a2e05;
+}
+
+.label1 {
+    font-weight: 700;
+    color: #1a2e05;
+}
+
+.input1 {
+    width: 60px;
+    font-weight: 600;
+}
+
+.label2{
+    font-weight: 700;
+    color: #1a2e05;
+}
+
+.input2{
+    width: 60px;
+}
+
+.total-Amount{
+   padding-left: 50px;
+    display: flex;
+    padding-top: 5px;
+}
+
+.total-Amount button {
+    border: 1px solid #1a2e05;
+    width: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.secondR {
+    padding-top: 10px;
+}
+.total{
+    padding-left: 10px;
+    color: #1a2e05;
+    font-weight: 700;
+}
+
+.change {
+    padding-left: 10px;
+    color: #1a2e05;
+    font-weight: 700;
+}
+
+.rows{
+    background-color: #f59e0b;
+    border-radius: 20px;
+    padding-bottom: 20px;
+   
+}
+
+.rows > div {
+    border-bottom: 2px solid #1a2e05; /* Add a bottom border to each row */
+    padding-bottom: 10px; /* Adjust spacing as needed */
+}
+
+
+
+/* CSS */
+.button-1 {
+  background-color: white;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: #1a2e05;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 1px solid #f59e0b;
+  font-size: 15px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+/* Add this media query at the end of your CSS */
+
+@media (max-width: 600px) {
+    .holder {
+      width: 100%; /* Adjust width as needed */
+      padding: 10px; /* Adjust padding as needed */
+      border-radius: 10px; /* Adjust border-radius as needed */
+    }
+  
+    .Calculator input {
+      width: 40px; /* Adjust width as needed */
+    }
+  
+    .total-amount {
+      padding-left: 20px; /* Adjust padding as needed */
+    }
+  
+    .total-amount button {
+      width: 100px; /* Adjust width as needed */
+    }
+  
+    .label1,
+    .label2 {
+      font-size: 14px; /* Adjust font-size as needed */
+    }
+  
+    .input1,
+    .input2 {
+      width: 40px; /* Adjust width as needed */
+    }
+  
+    p {
+      font-size: 16px; /* Adjust font-size as needed */
+    }
+  
+    .total-Amount {
+      padding-left: 20px; /* Adjust padding as needed */
+    }
+  
+    .total-Amount button {
+      width: 100px; /* Adjust width as needed */
+    }
+  
+    .total,
+    .change {
+      font-size: 14px; /* Adjust font-size as needed */
+    }
+  
+    .rows {
+      padding-bottom: 10px; /* Adjust padding as needed */
+    }
+  
+    .rows > div {
+      padding-bottom: 5px; /* Adjust padding as needed */
+    }
+  
+    .button-1 {
+      font-size: 14px; /* Adjust font-size as needed */
+    }
+  }
+  
